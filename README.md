@@ -78,7 +78,7 @@ Expected Output: 3
 
 * Go to _GITLINK_
 * Cone this repository to your desktop (or other desired location)
-* Navigate to the top level of the directory called _Portfolio_
+* Navigate to the top level of the directory called _Text Alalyzer_
 * Open the index.html file in your browser
 * Or copy & paste this link in your brower: _PUBLISHEDLINK_
 
