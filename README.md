@@ -85,12 +85,9 @@ Expected Output: "<p>yo</p>"
 
 
 
-
-
 "Hi there hey yo hi hi yay yo whoa there whoa... yay!"
 
-Make a list of all the words, in order.
-
+Test / objective: Make a list of all the words, in order.
 Hi
 there
 hey
@@ -103,9 +100,13 @@ whoa
 there
 whoa
 yay
+Code:
+const string = "Hi there hey yo hi hi yay yo whoa there whoa... yay!"
+const stringToArray = string.split();
 
 
-Lowercase all words to eliminate false different words.
+
+Test / objective:Lowercase all words to eliminate false different words.
 Action: Change first word 'Hi' to 'hi'.
 
 hi
@@ -121,6 +122,8 @@ there
 whoa
 yay
 
+Code: stringToArray.toLowerCase();
+
 
 Next, from that list, make a new list of each unique word with how many times it's used.
 
@@ -130,6 +133,14 @@ hey     1
 yo      2
 yay     2
 whoa    2
+
+Code:
+const mostCommonWordsFirst(lowerCaseArray) {
+  lowerCaseArray.wordCount();
+};
+
+// Continue working here!
+
 
 
 Then, order this second list by most used word to least used.
